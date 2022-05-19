@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+
+      .md-align {
+        width: 90%;
+        margin: 0 auto 40px;
+      }
+
+      .sm-align {
+        width: 80%;
+        margin: 0 auto 40px;
+      }
+
+      .image-card {
+        position: relative;
+      }
+
+      .image-card p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -150%);
+
+        font-size: 2em;
+      }
+
+      .image-card img {
+        border-radius: 50%;
+        width: 175px;
+      }
+
+      .image-card img:hover {
+        width: 250px;
+        cursor: pointer;
+        transition: 1s width ease-in;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="md-align">
+      <h1>Rafet Demirci</h1>
+      <h3>Hakkımda :</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea fugit ullam
+        repellendus? Aperiam nemo, repudiandae laudantium impedit vitae tempora
+        corporis saepe? Cum, molestiae eius. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Omnis dignissimos blanditiis
+        necessitatibus dolores doloremque dolorum at perspiciatis magni fuga,
+        laborum culpa!
+      </p>
+    </header>
+    <main class="sm-align">
+      <h3>İlgi Alanlarım</h3>
+      <ol>
+        <li>
+          Film
+          <ul>
+            <li><a href="https://www.imdb.com/title/tt0448011/">Knowing</a></li>
+            <li>Signs</li>
+            <li>Angels and Demons</li>
+          </ul>
+        </li>
+        <hr />
+        <li>
+          Dizi
+          <ul>
+            <li>
+              <a href="https://www.imdb.com/title/tt10234724/">Moon knight</a>
+            </li>
+            <li>Simpsons</li>
+            <li>Family Guy</li>
+          </ul>
+        </li>
+        <hr />
+        <li>
+          Kitap
+          <ul>
+            <li>
+              <a
+                href="https://books.google.com.tr/books/about/Da_Vinci_%C5%9Fifresi.html?id=TUS5ngEACAAJ&redir_esc=y"
+                >Da Vinci Şifresi</a
+              >
+            </li>
+            <li>Hayvan Çiftliği</li>
+            <li>İlahi Komedya</li>
+          </ul>
+        </li>
+        <hr />
+      </ol>
+    </main>
+    <footer class="md-align">
+      <div class="image-card md-align">
+        <img src="Images/image.jpg" alt="" />
+        <p>Moon Knight dizisinin baş karakteri</p>
+      </div>
+    </footer>
+  </body>
+</html>
